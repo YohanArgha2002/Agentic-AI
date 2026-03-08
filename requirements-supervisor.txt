@@ -1,0 +1,21 @@
+# Minimal dependencies for supervisor_demo.ipynb.
+# This intentionally excludes unrelated course packages such as spaCy/Guardrails
+# that make Python 3.13 installs fail.
+
+python-dotenv
+pydantic
+pypdf
+chromadb
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-openai
+langgraph
+langgraph-checkpoint
+langgraph-prebuilt
+langchain-chroma
+sentence-transformers
+langchain-huggingface
+ipykernel
+ipywidgets
